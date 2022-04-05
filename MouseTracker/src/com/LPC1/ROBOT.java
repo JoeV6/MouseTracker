@@ -19,7 +19,7 @@ public class ROBOT implements Runnable {
             }
 
             try {
-                TimeUnit.MILLISECONDS.sleep(GUI.TIMEOUTTIME); //wait for 10 milliseconds between movements
+                TimeUnit.MILLISECONDS.sleep(GUI.TIMEOUTTIME); //wait for TIMEOUTTIME milliseconds between movements
             } catch (InterruptedException ex) {
                 ex.printStackTrace();
             }
