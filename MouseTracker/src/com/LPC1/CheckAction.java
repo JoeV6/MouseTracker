@@ -30,7 +30,7 @@ public class CheckAction implements Runnable {
 
 
                     try {
-                        TimeUnit.MILLISECONDS.sleep(GUI.TIMEOUTTIME);            //wait 10 milliseconds between each saved mouse position
+                        TimeUnit.MILLISECONDS.sleep(GUI.TIMEOUTTIME);            //wait TIMEOUTTIME milliseconds between each saved mouse position
                     } catch (InterruptedException ex) {
                         ex.printStackTrace();
                     }
